@@ -9,8 +9,8 @@ class ItemViewModel extends ChangeNotifier {
 
   void addItem(String title) {
     if (title.isNotEmpty) {
-      _items.add(ItemModel(title));
-      notifyListeners();
+      _items.add(ItemModel(title)); 
+      notifyListeners(); 
     }
   }
 }
